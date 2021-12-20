@@ -1,0 +1,21 @@
+4 loại kiểm thử:
+	- kiểm tra mức đơn vị (unit test)
+	- kiểm tra mức tích hợp (integration test)
+	- kiểm tra mức hệ thống (system test)
+	- kiểm thử chấp nhận người dùng (user acceptance testing)
+Chiến lược kiểm thử
+	1.Kiểm thử hộp đen 
+		- chỉ tập trung vào yêu cầu chức năng
+		- không quan tâm cấu trúc và hành vi bên trong
+		- chỉ quan tâm hđ bên ngoài của phần mềm
+		- KTV cố gắng thử tìm ra lỗi ( chức năng thiếu , 
+                   ko đúng , giao diện , ctdl,csdl...)
+		- pp: thực thi rồi đưa ra testcase
+		- phân tích giá trị biên : tổng 4n+1(n là bộ giá trị)
+						là 6n+1 nếu là th tính cả vùng ngoài
+	vd :nếu bài toán tuổi thì bắt testcase là chuoi và để trắng suy ra 15tc
+		bài toán mk thì là 4tc
+		- tạo bảng quyết định : 2^n
+	vd bài trẻ em : 5tc
+	2.Kiểm thử hộp trắng
+	3.Kiểm thử hộp xám ( nâng cao)
